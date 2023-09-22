@@ -1,0 +1,56 @@
+body, html{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 78, 128);
+}
+.gallery-title{
+    font-size: 6.7rem;
+    margin: 20px;
+    padding: 15px;
+    color: rgb(255, 250, 210);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Skranji', cursive;
+}
+.card{
+    height: 55vh;
+    width: 22vw;
+    background-color: rgb(255, 250, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem 0;
+    border-radius: 4%;
+    box-shadow: 15px 15px 4px rgb(6, 34, 77);
+}
+.card-title{
+    font-size: 2.3rem;
+    margin: 2.3rem 0;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Skranji', cursive;
+}
+.card-img{
+    width: 60%;
+    object-fit: cover;
+    text-align: center;
+    height: 70%
+}
+.card-description{
+    font-size: 1.8rem;
+    color: rgb(37, 98, 168);
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem auto;
+}
