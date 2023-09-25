@@ -16,8 +16,8 @@ body, html{
     font-family: 'Skranji', cursive;
 }
 .card{
-    height: 55vh;
-    width: 22vw;
+    height: 50vh;
+    width: 22%;
     background-color: rgb(255, 250, 210);
     display: flex;
     flex-direction: column;
@@ -28,8 +28,8 @@ body, html{
     box-shadow: 15px 15px 4px rgb(6, 34, 77);
 }
 .card-title{
-    font-size: 2.3rem;
-    margin: 2.3rem 0;
+    font-size: 2.1rem;
+    margin: 2.1rem 0;
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
     font-family: 'Saira Condensed', sans-serif;
@@ -39,10 +39,10 @@ body, html{
     width: 60%;
     object-fit: cover;
     text-align: center;
-    height: 70%
+    height: 65%
 }
 .card-description{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: rgb(37, 98, 168);
     text-align: center;
 }
