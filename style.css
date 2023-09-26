@@ -15,6 +15,10 @@ body, html{
     font-family: 'Saira Condensed', sans-serif;
     font-family: 'Skranji', cursive;
 }
+.gallery-title:hover{
+    transform: translate(30px);
+
+}
 .card{
     height: 50vh;
     width: 22%;
@@ -26,6 +30,11 @@ body, html{
     margin: 3rem 0;
     border-radius: 4%;
     box-shadow: 15px 15px 4px rgb(6, 34, 77);
+    transition: all o.3s;
+    filter: grayscale(0.5);
+}
+.card:hover{
+    filter: grayscale(0);
 }
 .card-title{
     font-size: 2.1rem;
@@ -34,6 +43,9 @@ body, html{
     font-family: 'Playfair Display', serif;
     font-family: 'Saira Condensed', sans-serif;
     font-family: 'Skranji', cursive;
+}
+.card-title:hover{
+    transform:scale(1.1)
 }
 .card-img{
     width: 60%;
