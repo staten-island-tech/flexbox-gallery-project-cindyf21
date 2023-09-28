@@ -44,7 +44,6 @@ body, html{
     align-items: center;
     justify-content: space-around;
     margin: 3rem 0;
-    border-radius: 4%;
     box-shadow: 15px 15px 4px rgb(23, 57, 107);
     transition: all 0.3s;
     filter: grayscale(0.6);
